@@ -1,0 +1,27 @@
+<body>
+    <h2>Login Form</h2>
+    <form action="reservationform.php" method="post">
+        <div>
+            <label><b>Firstname</b></label>
+            <input type="text" name="firstname" placeholder="Enter Firstname" required>
+            <label><b>Lastname</b></label>
+            <input type="text" name="lastname" placeholder="Enter Lastname" required>
+            <label><b>Email</b></label>
+            <input type="email" name="email" placeholder="Enter Email" required>
+            <label><b>Date of birth</b></label>
+            <input type="date" name="birthday" placeholder="Enter your birth date" required>
+            <label><b>Telephone number (optional)</b></label>
+            <input type="tel" name="telephone" placeholder="Enter your telephone number">
+            <label><b>Number of people</b></label>
+            <input type="number" name="amount" placeholder="1" required>
+            <label><b>From</b></label>
+            <input type="date" name="startdate" placeholder="date you will arive" required>
+            <label><b>To</b></label>
+            <input type="date" name="enddate" placeholder="date you will leave" required>
+            <label><b>Anything else?</b></label>
+            <input name="comments" type="text">
+            <input type="button" value="cancel">
+            <input type="submit" value="choose room">
+        </div>
+    </form>
+</body>
